@@ -9,14 +9,19 @@ function robotNumber(number) {
   var splitArray = newArray.split("")
   console.log(splitArray)
 
-  // for (var i = 0; i < splitArray.length; i++) {
-  //   if (parseInt(splitArray[]) === i) {
-  //     var arrayResult = arrayFirstTen[i];
-  //   }
-  {
-    return array
+  var robotSound = ["beep", "boop", "2", "I'm sorry, Dave. I'm afraid I can't do that", "4", "5", "6", "7", "8", "9"];
+  var number= [];
+
+  robotSound.forEach(function (robotSound) {
+    console.log(robotSound)
   }
-  // var arrayFirstTen = ["beep", "boop", "2", "I'm sorry, Dave. I'm afraid I can't do that", "4", "5", "6", "7", "8", "9"];
+
+  // var number []
+  //
+  // {
+  //   return array
+  // }
+
 }
 
 
