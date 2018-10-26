@@ -1,13 +1,24 @@
 function robotNumber(number) {
   console.log("this is working")
-  var arrayNumber = [...Array(number).keys()];
-  console.log(arrayNumber)
-  // var array = new Array();
-  //   for(var i = start; i < end; i++)
-  //   {
-  //     array.push(i);
-  //   }
-  //   return array;
+
+  var array = [...Array(number).keys()];
+  console.log(array)
+
+
+  var newArray = number.split('');
+  console.log(newArray)
+
+
+  for(var i = 0; i < array.length; i++)
+  {
+    if (array === 0) {
+      (".beep").append(" beep");
+    } else if (array  === 1) {
+      (".boop").append(" boop");
+    }
+    console.log("after the array")
+  }
+  return array;
 }
 
 
@@ -20,6 +31,6 @@ $(document).ready(function() {
 
     $("#result").show();
     $("#result").text(result);
-    console.log(number)
+    console.log(result)
   });
 });
