@@ -5,16 +5,13 @@ function robotNumber(number) {
   console.log(array)
 
 
-  var newArray = number.split('');
-  console.log(newArray)
-
-
-  for(var i = 0; i < array.length; i++)
-  {
+  for(var i = 0; i = array.length; i++) {
+    var splitArray = array.slice('');
+    console.log("this is split" + splitArray)
     if (array === 0) {
-      (".beep").append(" beep");
+      (".beep").text(" beep");
     } else if (array  === 1) {
-      (".boop").append(" boop");
+      (".boop").text(" boop");
     }
     console.log("after the array")
   }
