@@ -5,9 +5,10 @@ function robotNumber(number) {
   console.log(array)
 
 
-  for(var i = 0; i = array.length; i++) {
+  for(var i = 0; i < array.length; i++) {
     var splitArray = array.slice('');
     console.log("this is split" + splitArray)
+    
     if (array === 0) {
       (".beep").text(" beep");
     } else if (array  === 1) {
