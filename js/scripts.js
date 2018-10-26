@@ -1,23 +1,11 @@
-// Word puzzle function
-function counter(something) {
-  var newSomething = [];
-  // calculation, with a for loop, if statement
-  for (var i = 0; i < something; i++) {
-    newSomething.push(i);
-  }
-  return newSomething;
-}
-
-// count numbers
 $(document).ready(function() {
-  $("#userInput").submit(function(event) {
-    // collect user input
-    var userInput = $("#input").val();
-     // call function and save return value
-     var result = counter(userInput)
+  $("form#convertor").submit(function(event) {
+    event.preventDefault();
+    var number = parseInt($("input#inputNumber").val());
+    var result = counter(number);
 
-     $("#output").text(result);
-
-     event.preventDefault();
+    $("#result").show();
+    $("#result").text(result);
+    console.log(result)
   });
 });

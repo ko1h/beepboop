@@ -6,16 +6,10 @@
 
 ## Description
 
-_1.) Make 1 into I_
-_2.) If it counts up to 3 expect roman numeral to equal III_
-_3.) Make 5 into V_
-_4.) If it counts up to 4 expect roman numeral to equal IV_
-_5.) If it counts up to 8 expect roman numeral to equal VIII_
-_6.) Make 10 into X_
-_7.) Make 50 into L_
-_8.) Make 100 in C_
-_9.) Make 500 into D_
-_10.) Make 1000 into M_
+_1 Program replaces 0 with beep_
+_2 Program replace 1 with boop_
+_3 Program replace 3 with "I'm sorry, Dave. I'm afraid I can't do that."_
+
 
 ## Setup/Installation Requirements
 
