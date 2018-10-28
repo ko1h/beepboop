@@ -1,39 +1,27 @@
 
 function robotNumber(number) {
-  console.log("this is working")
+  console.log(number)
 
+  var newArray = number.toString();
+  console.log(newArray)
 
-
-  // var array = [...Array(number + 1).keys()];
-  // console.log(array)
-
-  // var newArray = number.toString();
-  // console.log(newArray)
-  //
-  // // return newArray
-  // var splitArray = newArray.split(",");
-  // console.log(splitArray)
-// }
-//
-// function robotSound(number) {
-//   console.log("new function area")
-
-  var boop = ["boop"];
-  var beep = ["beep"];
+  var splitNumber = newArray.split("");
+  console.log(splitNumber)
 
   var resultArray = [];
 
-  for (var i = 0; i < number; i ++) {
-    // if (splitArray.includes("1")) {
-    //   resultArray.push(boop[i]);
-    // }
-    // else if (splitArray.includes("0")) {
-    //   resultArray.push(beep[i]);
-    array.push(number(i));
-    var arrayString = array.string((" "));
+  for (var i = 0; i < splitNumber.length; i ++) {
+    if (splitNumber.includes("1")) {
+      resultArray.push("boop");
+  console.log(resultArray)
     }
-    console.log(resultArray)
-  return arrayString
+    else if (number.includes("0")) {
+      resultArray.push("boop");
+    }
+    else {
+    return num;
+  }
+  return resultArray
 }
 
 $(document).ready(function() {
@@ -41,7 +29,6 @@ $(document).ready(function() {
     event.preventDefault();
     var number = parseInt($("input#inputNumber").val());
     var result = robotNumber(number);
-
     $("#result").show();
     $("#result").text(result);
     console.log(result)
