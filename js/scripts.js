@@ -7,22 +7,18 @@ function robotNumber(number) {
   var splitNumber = newArray.split("");
   console.log(splitNumber)
 
-  var resultArray = [];
-
-  for (var i = 0; i < splitNumber.length; i ++) {
+  if (number = " ") {
+    var noNumber = "Please enter a number"
+    return noNumber;
+  } 
+  else if (number <== 3000) {
+    for (var i = 0; i < number; i ++) {
     console.log("this is in the forloop: " + splitNumber)
-    if (splitNumber.includes("1")) {
-      resultArray.push("boop");
-      console.log(resultArray)
-    }
-    else if (number.includes("0")) {
-      resultArray.push("boop");
-    }
-    else {
-      return num;
-    }
-    return resultArray
+    if (number % 3)
+
+    return number
   }
+}
 
 $(document).ready(function() {
   $("form#convertor").submit(function(event) {
