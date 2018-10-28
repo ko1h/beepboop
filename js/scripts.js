@@ -1,4 +1,3 @@
-
 function robotNumber(number) {
   console.log(number)
 
@@ -11,18 +10,19 @@ function robotNumber(number) {
   var resultArray = [];
 
   for (var i = 0; i < splitNumber.length; i ++) {
+    console.log("this is in the forloop: " + splitNumber)
     if (splitNumber.includes("1")) {
       resultArray.push("boop");
-  console.log(resultArray)
+      console.log(resultArray)
     }
     else if (number.includes("0")) {
       resultArray.push("boop");
     }
     else {
-    return num;
+      return num;
+    }
+    return resultArray
   }
-  return resultArray
-}
 
 $(document).ready(function() {
   $("form#convertor").submit(function(event) {
