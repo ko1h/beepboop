@@ -2,50 +2,39 @@
 function robotNumber(number) {
   console.log("this is working")
 
-  var array = [...Array(number + 1).keys()];
-  console.log(array)
-
-  var newArray = array.toString();
-  console.log(newArray)
 
 
-  var splitArray = newArray.split("");
-  console.log(splitArray)
+  // var array = [...Array(number + 1).keys()];
+  // console.log(array)
 
-  var robotSound = ["beep", "boop", "2", "I'm sorry, Dave. I'm afraid I can't do that", "4", "5", "6", "7", "8", "9"]
+  // var newArray = number.toString();
+  // console.log(newArray)
+  //
+  // // return newArray
+  // var splitArray = newArray.split(",");
+  // console.log(splitArray)
+// }
+//
+// function robotSound(number) {
+//   console.log("new function area")
 
-  var resultArray = []
+  var boop = ["boop"];
+  var beep = ["beep"];
 
-  for (var i = 0; i <= splitArray.length + 1; i ++) {
-    if (splitArray[i] === ("1")[i]) {
-      resultArray.push(boop[i]);
-    }
-    else if (splitArray[i] === ("0")[i]) {
-      resultArray.push(beep[i]);
+  var resultArray = [];
+
+  for (var i = 0; i < number; i ++) {
+    // if (splitArray.includes("1")) {
+    //   resultArray.push(boop[i]);
+    // }
+    // else if (splitArray.includes("0")) {
+    //   resultArray.push(beep[i]);
+    array.push(number(i));
+    var arrayString = array.string((" "));
     }
     console.log(resultArray)
-  }
-  return ;
+  return arrayString
 }
-
-//   var numberOfInputs = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
-//
-//   number = [];
-//
-//   console.log (robotSound);
-//   for (var i = 0; i < splitArray.length; i++) {
-//       if (parseInt(robotSound[0]) === i) {
-//         var Result4 = robotSound[i];
-//       console.log (Result4)
-//       }
-//     }
-//
-//   numberOfInputs.forEach(function(numberOfInputs) {
-//     robotSound.forEach(function(robotSound){
-//       console.log(robotSound)
-//     });
-//   });
-// }
 
 $(document).ready(function() {
   $("form#convertor").submit(function(event) {
