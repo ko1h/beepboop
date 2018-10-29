@@ -22,7 +22,7 @@ _3 Program replace 3 with "I'm sorry, Dave. I'm afraid I can't do that."_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_change One number at a time_
 
 ## Support and contact details
 

@@ -5,12 +5,12 @@ function robotSounds(inputNum) {
   console.log(newArray)
 
   var splitArray = newArray.split("")
-  console.log(splitArray)
+  console.log(splitArray
 
-    var arrayResult = [];
+  var arrayResult = [];
 
-    for (var i = 0; i < splitArray.length; i++) {
-      console.log(splitArray)
+    // for (var i = 0; i < splitArray.length; i++) {
+      console.log(i)
       if (splitArray.includes("3")) {
         arrayResult.push("I'm sorry, Dave. I'm afraid I can't do that.");
       }
@@ -19,7 +19,11 @@ function robotSounds(inputNum) {
       }
       else if (splitArray.includes("1")) {
         arrayResult.push("boop");
+        console.log(arrayResult)
       }
+      // else {
+      //   return n
+      // }
       return arrayResult
   }
 }
