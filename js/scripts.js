@@ -5,18 +5,17 @@ function robotSounds(inputNum) {
 
     for (var i = 0; i < inputNum; i++) {
 
-      if (i % 3 == 0 && i !== 0) {
-        arrayResult.push("I'm sorry, Dave. I'm afraid I can't do that.");
+      if (i % 3 === 0 && i !== 0) {
+        arrayResult.push(" I'm sorry, Dave. I'm afraid I can't do that.");
       }
       else if (i.toString().split("").includes("1")) {
-        arrayResult.push("boop");
-        console.log(arrayResult)
+        arrayResult.push(" Boop");
       }
       else if (i.toString().split("").includes("0")) {
-        arrayResult.push("beep");
+        arrayResult.push(" Beep");
       }
       else {
-        arrayResult.push(" " + i.toString())
+        arrayResult.push(i.toString());
       }
   }
   return arrayResult
