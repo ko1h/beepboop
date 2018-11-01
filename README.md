@@ -29,7 +29,7 @@ _7 if the number is great then 0 it will show the whole range of numbers.
 
 ## Known Bugs
 
-_change One number at a time_
+_Cannot find any issue at the moment._
 
 ## Support and contact details
 
